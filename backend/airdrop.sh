@@ -1,0 +1,17 @@
+curl 'https://api.devnet.solana.com/' \
+  -H 'authority: api.devnet.solana.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://solfaucet.com' \
+  -H 'referer: https://solfaucet.com/' \
+  -H 'sec-ch-ua: "Chromium";v="118", "Brave";v="118", "Not=A?Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36' \
+  --data-raw '{"jsonrpc":"2.0","id":"87c4ff1a-d823-4bd1-95b1-c46eec5716ae","method":"requestAirdrop","params":["FUcoeKT9Nod5mWxDJJrbq4SycLAqNyxe5eMnmChbZ89p",1000000000]}' \
+  --compressed
